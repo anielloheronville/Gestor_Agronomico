@@ -1,0 +1,71 @@
+/* dark_theme.css - Versão Definitiva */
+
+/* --- Dropdowns (dcc.Dropdown) --- */
+
+/* Estilo para o controle principal do dropdown */
+.Select-control, .Select-multi-value-wrapper, .Select-input > input {
+    background-color: #252525 !important;
+    border: 1px solid #333333 !important;
+    color: #FFFFFF !important; 
+}
+
+/* ESTA É A REGRA MAIS IMPORTANTE E ATUALIZADA */
+/* Alvo para o texto do valor selecionado e o placeholder */
+.Select-placeholder,
+.Select--single > .Select-control .Select-value,
+.Select-value-label {
+    color: #FFFFFF !important;
+}
+
+/* Cor do texto ao digitar no dropdown */
+.Select-input input {
+    color: #FFFFFF !important;
+}
+
+/* Estilo para o menu que abre com as opções */
+.Select-menu-outer {
+    background-color: #252525 !important;
+    border: 1px solid #444444 !important;
+}
+
+/* Estilo para cada opção individual no menu */
+.Select-option {
+    background-color: #252525 !important;
+    color: #FFFFFF !important;
+}
+
+/* Estilo para a opção quando o mouse está sobre ela (hover) */
+.Select-option.is-focused {
+    background-color: #00AEEF !important; 
+    color: #FFFFFF !important;
+}
+
+
+/* --- Tabela de Detalhes (dash_table.DataTable) --- */
+
+/* Força a cor do texto das células da tabela para branco */
+.dash-spreadsheet-container .dash-spreadsheet-inner td {
+    color: #FFFFFF !important;
+}
+
+/* Melhora a visibilidade da célula selecionada na tabela */
+.dash-spreadsheet-container .dash-spreadsheet-inner td.focused {
+    outline: 1px solid #00AEEF !important;
+    outline-offset: -1px;
+}
+
+/* --- Estilo para Botões Outline (Ver Análise Detalhada) --- */
+
+/* Estilo padrão do botão com contorno */
+.btn-outline-primary {
+    color: #00AEEF !important; /* Cor do texto e da borda (nossa cor primária) */
+    border-color: #00AEEF !important;
+    background-color: transparent !important; /* Garante o fundo transparente */
+}
+
+/* Estilo do botão quando o mouse está sobre ele (hover) */
+.btn-outline-primary:hover {
+    color: #FFFFFF !important; /* Texto fica branco */
+    background-color: #00AEEF !important; /* Fundo preenchido com a cor primária */
+    border-color: #00AEEF !important;
+}
